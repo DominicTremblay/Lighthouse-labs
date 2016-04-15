@@ -47,3 +47,11 @@ transition-delay: 120ms;
 #text-only {
 	text-transform: uppercase;
 }
+
+.active {
+
+	font-weight: bold;
+	color: green;
+	
+
+}

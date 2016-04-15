@@ -19,4 +19,19 @@ $("ol li").click (function () {
 
 });
 
+$("input[name='Ingredients']").click(
+
+	function(){
+
+	var index = $('input:checkbox').index(this);
+	var activeItem = $('ul li').get(index);
+	
+
+	if ($(this).is(':checked'))
+		$(activeItem).addClass('active');
+	else
+		$(activeItem).removeClass('active');
+
+	});
+
 });
