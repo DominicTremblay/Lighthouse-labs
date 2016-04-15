@@ -1,0 +1,49 @@
+
+.container {
+	background-color: #ffffe6;
+	box-shadow: 5px 0px 3px #888888;
+	
+	
+}
+
+h1 {
+	text-transform: uppercase;
+
+}
+
+h2, h3 {
+	text-transform: capitalize;
+}
+
+h3 {
+	font-size: 1.8em;
+}
+
+img {
+ 	border-radius: 15px;
+ 	box-shadow: 5px 5px 3px #888888;
+	
+	
+}
+
+section {
+	padding: 10px;
+}
+
+.step-picture {
+
+	padding:10px;
+}
+
+.step-picture:hover {
+
+background-color: #ddd;
+border: 1px #888 solid;
+transition-timing-function: ease-in-out;
+transition-delay: 120ms;
+
+}
+
+#text-only {
+	text-transform: uppercase;
+}
